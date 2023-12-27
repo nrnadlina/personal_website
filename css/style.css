@@ -1,0 +1,61 @@
+body
+{
+	margin: 0px ;
+	min-height: 100vh;
+	background-color: lightpink;
+
+}
+h1
+{
+	color: white;
+	font-family: verdana;
+	text-align: center;
+}
+main 
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.header
+{
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	background: lightblue;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo
+{
+	font-size: 50px;
+	color: hotpink;
+	text-decoration: none;
+	font-weight: 700;
+	font-style: oblique;
+}
+.navbar a
+{
+	position: relative;
+	font-size: 20px;
+	color: white;
+	font-weight: 300;
+	text-decoration: none;
+	margin-left: 40px;
+}
+.navbar a::before
+{
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background: whitesmoke;
+	transition: .3s;
+}
+.navbar a:hover::before
+{
+	width: 100px;
+
+}

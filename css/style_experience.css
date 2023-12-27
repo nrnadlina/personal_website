@@ -1,0 +1,23 @@
+h1
+{
+	text-align: center;
+	color: white;
+}
+table.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+th,td
+{
+	font-size: 15px;
+	text-align: center;
+}
+mark
+{
+	background-color: mediumpurple;
+}
+table, td
+{
+	border: 1px solid;
+}

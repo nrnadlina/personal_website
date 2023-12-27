@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gallery</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style_gallery.css">
+</head>
+<body>
+
+	<header class="header">
+		<a href="#" class="logo">Nurin Adlina</a>
+
+	<nav class="navbar">
+		<a href="index.html">Homepage</a>
+		<a href="profile.html">Profile</a>
+		<a href="experience.html">Experience</a>
+		<a href="education.html">Education</a>
+		<a href="family.html">Family</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="contact.html">Contact Me</a>
+	</nav>
+
+</header>
+
+<h1>My Gallery</h1>
+
+<h2 style="border: 4px dashed hotpink; width: 30%; ">Friends <3</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="image/fren.jpg" alt="HighSchool" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/fren1.jpg" alt="Diploma" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/fren2.jpg" alt="Degree" style="width:100%">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="image/fren3.jpg" alt="Harmoni" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/fren6.jpg" alt="TAR" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/fren5.jpg" alt="Wawa" style="width:100%">
+  </div>
+</div>
+
+<h2 style="border: 4px dashed hotpink; width: 30%; ">Sky<3</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="image/sky.jpg" alt="Sunset" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/sky1.jpg" alt="Sunset" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/sky2.jpg" alt="Sunset" style="width:100%">
+  </div>
+</div>
+
+<h2 style="border: 4px dashed hotpink; width: 30%; ">Nature & Adventure<3</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="image/nature.jpg" alt="Sunset" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/nature1.jpg" alt="Sunset" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/nature2.jpg" alt="Sunset" style="width:100%">
+  </div>
+</div>	
+
+<h2 style="border: 4px dashed hotpink; width: 30%; ">Video<3</h2>
+<p> Enjoy my random video!</p>
+
+
+<div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <br><br>
+  <video id="video1" width="300">
+    <source src="video/random.mp4" type="video/mp4">
+    Your browser does not support HTML video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() 
+{ 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+</script> 
+
+
+
+</body>
+</html>
